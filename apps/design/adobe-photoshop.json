@@ -1,17 +1,52 @@
 {
-  "macOS": {
-    "File": [
+  "operatingSystem": {
+    "title": "macOS",
+    "categories": [
       {
-        "shortcut": [
-          "cmd", "S"
-        ],
-        "action": "Save as a thing"
+        "categoryTitle": "File",
+        "shortcuts": [
+          {
+            "action": "Save as",
+            "keyStroke": [
+              "cmd", "shift", "S"
+            ]
+          },
+          {
+            "action": "Copy",
+            "keyStroke": [
+              "cmd", "C"
+            ]
+          },
+          {
+            "action": "Find",
+            "keyStroke": [
+              "cmd", "F"
+            ]
+          }
+        ]
       },
       {
-        "shortcut": [
-          "cmd", "A"
-        ],
-        "action": "Select All"
+        "categoryTitle": "View",
+        "shortcuts": [
+          {
+            "action": "View all",
+            "keyStroke": [
+              "cmd", "shift", "G"
+            ]
+          },
+          {
+            "action": "View text",
+            "keyStroke": [
+              "opt", "D"
+            ]
+          },
+          {
+            "action": "View none",
+            "keyStroke": [
+              "shift", "W"
+            ]
+          }
+        ]
       }
     ]
   }
