@@ -1,0 +1,18 @@
+{
+  "macOS": {
+    "File": [
+      {
+        "shortcut": [
+          "cmd", "S"
+        ],
+        "action": "Save as a thing"
+      },
+      {
+        "shortcut": [
+          "cmd", "A"
+        ],
+        "action": "Select All"
+      },
+    ]
+  }
+}
